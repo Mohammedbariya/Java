@@ -13,16 +13,10 @@ public class Rock_paper_Scissor {
         int com = 0;
         while (i<3){
             ++i;
-            
-            
-            
-
             System.out.println("\nChoose one option from following");
             System.out.println("Rock-1\nPaper-2\nScissor-3");
             System.out.print("Enter your option(Enter a number): ");
             int player = p.nextInt();
-        
-
         
             if(comp ==1){
                 System.out.println("Computer choose Rock");
