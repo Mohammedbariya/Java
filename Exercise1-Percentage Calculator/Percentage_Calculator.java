@@ -5,27 +5,21 @@ public class Percentage_Calculator {
         System.out.println("Welcome to the percentage calculator");
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the marks of subject number 1: ");
-//        Scanner a = new Scanner(System.in);
         float as = s.nextInt();
 
         System.out.println("Enter the marks of subject number 2: ");
-//        Scanner b = new Scanner(System.in);
         float bs = s.nextInt();
 
         System.out.println("Enter the marks of subject number 3: ");
-//        Scanner c = new Scanner(System.in);
         float cs = s.nextInt();
 
         System.out.println("Enter the marks of subject number 4: ");
-//        Scanner d = new Scanner(System.in);
         float ds = s.nextInt();
 
         System.out.println("Enter the marks of subject number 5: ");
-//        Scanner e = new Scanner(System.in);
         float es = s.nextInt();
 
         System.out.println("Enter Total marks: ");
-//        Scanner f = new Scanner(System.in);
         float fs = s.nextInt();
 
         float w = as+bs+cs+ds+es;
